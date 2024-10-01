@@ -2,7 +2,7 @@ name: 자동 배포 테스트
 on:
   workflow_dispatch:
   schedule: 
-   - cron: "*/5 * * * *" #5분 마다 실행
+    - cron: "*/5 * * * *" #5분 마다 실행
 
 jobs:
   merge:
