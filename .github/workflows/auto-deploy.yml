@@ -2,7 +2,7 @@ name: 자동 배포 테스트
 on:
   workflow_dispatch:
   schedule: 
-    - cron: "*/5 * * * *" #5분 마다 실행
+    - cron: '*/15 * * * *' # 15분 마다 실행
 
 jobs:
   merge:
@@ -10,12 +10,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2 # 저장소의 코드를 체크아웃(다운로드) 하는 역할
       - name: Merge upstream
-        run: |
+        run: |  
           git config --global user.name 'arkingco'
           git config --global user.email 'arkingco@gmail.com'
           git pull --unshallow 
-          git remote add upstream https://github.com/Tinkerbell-Green/need-compliments.git
+          git remote add upstream https://github.com/K-BigAnt/Front.git
           git fetch upstream
           git checkout dev
-          git merge -Xtheirs upstream/master
+          git merge -Xtheirs upstream/dev
           git push origin dev
