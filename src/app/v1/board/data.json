@@ -1,0 +1,84 @@
+{
+  "content": [
+    {
+      "user": {
+        "id": 1,
+        "name": "lude",
+        "nickname": "야호",
+        "email": "lude@gmail.com",
+        "address": null,
+        "profileImg": null,
+        "phoneNumber": null
+      },
+      "content": "야호1111",
+      "pictureUrls": null,
+      "createdAt": "2024-09-11T20:09:11.587104",
+      "updatedAt": "2024-09-11T20:09:11.587104",
+      "likeCnt": 0,
+      "deleted": false,
+      "commentCnt": 2,
+      "repostCnt": 3
+    },
+    {
+      "user": {
+        "id": 2,
+        "name": "rj",
+        "nickname": "rolly jolly",
+        "email": "rj@naver.com",
+        "address": null,
+        "profileImg": null,
+        "phoneNumber": null
+      },
+      "content": "야호 22222",
+      "pictureUrls": null,
+      "createdAt": "2024-09-11T20:09:09.188975",
+      "updatedAt": "2024-09-11T20:09:09.188975",
+      "likeCnt": 0,
+      "deleted": false,
+      "commentCnt": 0,
+      "repostCnt": 0
+    },
+    {
+      "user": {
+        "id": 2,
+        "name": "rj",
+        "nickname": "rolly jolly",
+        "email": "rj@naver.com",
+        "address": null,
+        "profileImg": null,
+        "phoneNumber": null
+      },
+      "content": "야호 333333",
+      "pictureUrls": null,
+      "createdAt": "2024-09-11T20:09:06.769609",
+      "updatedAt": "2024-09-11T20:09:06.769609",
+      "likeCnt": 0,
+      "deleted": false,
+      "commentCnt": 0,
+      "repostCnt": 0
+    }
+  ],
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 10,
+    "sort": {
+      "empty": false,
+      "sorted": true,
+      "unsorted": false
+    },
+    "offset": 0,
+    "paged": true,
+    "unpaged": false
+  },
+  "size": 10,
+  "number": 0,
+  "sort": {
+    "empty": false,
+    "sorted": true,
+    "unsorted": false
+  },
+  "first": true,
+  "last": false,
+  "numberOfElements": 3,
+  "empty": false
+}
